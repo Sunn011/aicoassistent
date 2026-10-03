@@ -1,4 +1,4 @@
-# AICO Assistant — Backend
+# AICOAssistant 
 
 Backend package for the **AICO Assistant** web application.
 
