@@ -1,0 +1,18 @@
+{
+  "name": "aico-assistant-backend",
+  "version": "2.0.0",
+  "description": "AICO Assistant backend: receives client requests, creates and assigns tasks, tracks progress, escalates blockers and sends completion updates.",
+  "main": "server.js",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.164",
+    "mailparser": "^3.7.1",
+    "nodemailer": "^6.9.14"
+  }
+}

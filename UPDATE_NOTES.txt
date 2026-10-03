@@ -1,0 +1,22 @@
+AICO Assistant update
+=====================
+
+Updated from the uploaded legacy files:
+- server.js
+- package.json
+- render.yaml
+- Dockerfile
+- .env.example
+- .gitignore
+- README.md
+
+Main changes:
+1. Rebranded backend from Ops Copilot / Zenith Labs to AICO Assistant.
+2. Added APP_URL=https://aicoassistent.netlify.app.
+3. Added browser CORS + OPTIONS preflight handling for the Netlify frontend.
+4. Updated Render service name.
+5. Updated Docker start command to npm start.
+6. Kept the documented API and business logic unchanged.
+
+Important:
+The uploaded files did not contain the current Netlify frontend source. The live URL could not be fetched reliably during this update, so no UI behavior was fabricated.
